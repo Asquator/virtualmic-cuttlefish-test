@@ -1,0 +1,7 @@
+# virtualmic service type
+type virtualmic, domain;
+# File type for the virtualmic executable
+type virtualmic_exec, exec_type, vendor_file_type, file_type;
+
+# Grant permission for 'init' to start the service and transition to the 'virtualmic' domain
+init_daemon_domain(virtualmic)

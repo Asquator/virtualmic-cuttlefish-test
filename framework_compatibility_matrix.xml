@@ -1,0 +1,10 @@
+<compatibility-matrix version="1.0" type="framework" level="202504">
+    <hal format="aidl">
+        <name>android.hardware.audio.core</name>
+        <version>3</version>
+        <interface>
+            <name>IModule</name>
+            <instance>virtualmic</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
